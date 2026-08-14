@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500&family=Poppins:ital,wght@0,300;0,400;0,500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-carefair-bg: #141414;
+  --color-carefair-accent: #d6e5cd;
+  --color-carefair-ink: #161616;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-carefair-bg font-body text-white antialiased;
+  }
+}
