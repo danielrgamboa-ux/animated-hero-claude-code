@@ -1,16 +1,55 @@
-# React + Vite
+# Animated Hero — Claude Code + Figma
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Description
+Hero Section animado para **Carefair**, una marca de skincare. El proyecto porta un diseño de Figma a una implementación en React totalmente funcional, con animaciones de entrada, interacciones y un layout responsive fiel al diseño original.
 
-Currently, two official plugins are available:
+## Technologies
+- Figma
+- Claude Code
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- Git / GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Responsive Hero (desktop, tablet, mobile)
+- Animated entrance (staggered)
+- Floating image animation
+- CTA hover interaction
+- Respeta `prefers-reduced-motion`
 
-## React Compiler
+## Figma
+> 🔗 Link al diseño: [https://www.figma.com/design/LwdXudLHspMGbry1pFDW2w/Hero-section---Claude?node-id=0-1&t=xKd3ouPIxC3iN3Cy-1](https://www.figma.com/design/LwdXudLHspMGbry1pFDW2w/Hero-section---Claude?node-id=0-1&t=xKd3ouPIxC3iN3Cy-1)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation
+Clona el repositorio e instala las dependencias:
 
-## Expanding the Oxlint configuration
+```bash
+git clone <URL_DEL_REPO>
+cd animated-hero-claude-code
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Run locally
+Levanta el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
+La aplicación estará disponible en:
+
+```
+http://localhost:5173
+```
+
+## Project structure
+```
+src/
+├── components/   # Componentes del Hero (Navbar, HeroHeadline, HeroImage, HeroDescription, HeroCTA, etc.)
+├── assets/       # Imágenes e íconos usados en el diseño
+└── data/         # Datos estáticos (por ejemplo, enlaces de navegación)
+```
+
+## Development process
+El diseño de este Hero fue creado en **Figma** y su implementación en código se desarrolló por completo con **Claude Code**, traduciendo la estructura, estilos y animaciones del diseño a componentes React funcionales.
