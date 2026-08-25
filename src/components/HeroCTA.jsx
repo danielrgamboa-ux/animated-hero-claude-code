@@ -6,7 +6,7 @@ export default function HeroCTA({ variants }) {
     <motion.div variants={variants} className="flex items-center gap-3">
       <a
         href="#shop"
-        className="inline-flex h-[64px] items-center justify-center rounded-full bg-carefair-accent px-8 font-body text-base font-medium text-carefair-ink transition-transform hover:scale-[1.03] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-carefair-accent sm:h-[72px] sm:px-10 sm:text-lg lg:h-[84px] lg:px-12"
+        className="inline-flex h-[64px] items-center justify-center rounded-full bg-[linear-gradient(135deg,#d6e5cd_0%,#929c8c_100%)] bg-[length:200%_200%] bg-[position:0%_0%] px-8 font-body text-base font-medium text-carefair-ink transition-[background-position,transform] duration-500 ease-out hover:scale-[1.03] hover:bg-[position:100%_100%] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-carefair-accent sm:h-[72px] sm:px-10 sm:text-lg lg:h-[84px] lg:px-12"
       >
         Shop Now
       </a>
