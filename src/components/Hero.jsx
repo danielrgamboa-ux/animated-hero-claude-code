@@ -4,24 +4,7 @@ import HeroHeadline from './HeroHeadline'
 import HeroDescription from './HeroDescription'
 import HeroCTA from './HeroCTA'
 import HeroImage from './HeroImage'
-
-const container = {
-  hidden: {},
-  visible: {
-    transition: { staggerChildren: 0.15, delayChildren: 0.1 },
-  },
-}
-
-const item = {
-  hidden: { opacity: 0, y: 24 },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
-  },
-}
-
-const noMotion = { hidden: {}, visible: {} }
+import { container, item, noMotion } from '../lib/motionVariants'
 
 export default function Hero() {
   const prefersReducedMotion = useReducedMotion()
