@@ -3,6 +3,9 @@
 ## Description
 Hero Section animado para **Carefair**, una marca de skincare. El proyecto porta un diseño de Figma a una implementación en React totalmente funcional, con animaciones de entrada, interacciones y un layout responsive fiel al diseño original.
 
+## Live Demo
+> 🚀 [https://animated-hero-claude-code.vercel.app](https://animated-hero-claude-code.vercel.app)
+
 ## Technologies
 - Figma
 - Claude Code
